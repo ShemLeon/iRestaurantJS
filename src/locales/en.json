@@ -1,0 +1,23 @@
+{
+  "header": {
+    "products": "Products",
+    "equipment": "Equipment",
+    "integrations": "Integrations",
+    "about": "About",
+    "career": "Career",
+    "contact": "Contact"
+  },
+  "products": {
+    "yourBusiness": "Your Business",
+    "yourClients": "Your Clients",
+    "eat": "Eat - Restaurant Management",
+    "waiter": "Waiter - Mobile Order Taking",
+    "cook": "Cook - Kitchen Display",
+    "cloud": "Cloud - Statistics and KPI",
+    "eatupOnline": "EatUp Online - Orders and Delivery",
+    "eatupInStore": "EatUp In Store - QR Menu",
+    "menu": "Menu - Self Order",
+    "kiosk": "Kiosk - Self-Service Terminals"
+  }
+}
+

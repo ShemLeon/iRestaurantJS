@@ -1,0 +1,95 @@
+.language-switcher {
+  position: relative;
+  margin-right: 20px;
+}
+
+.language-button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  background: transparent;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 14px;
+  color: #2d3436;
+}
+
+.language-button:hover {
+  border-color: #6A5ACD;
+  background: #f8f9fa;
+}
+
+.planet-icon {
+  color: #6A5ACD;
+  flex-shrink: 0;
+}
+
+.current-lang {
+  font-weight: 600;
+  min-width: 30px;
+  text-align: center;
+}
+
+.arrow-icon {
+  color: #6A5ACD;
+  transition: transform 0.3s ease;
+  flex-shrink: 0;
+}
+
+.language-button:hover .arrow-icon {
+  transform: translateY(2px);
+}
+
+.language-dropdown {
+  position: absolute;
+  top: calc(100% + 8px);
+  right: 0;
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  min-width: 150px;
+  z-index: 1000;
+  overflow: hidden;
+}
+
+.language-option {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 12px 16px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  text-align: left;
+  font-size: 14px;
+  color: #2d3436;
+}
+
+.language-option:hover {
+  background: #f8f9fa;
+}
+
+.language-option.active {
+  background: #f0f0ff;
+  color: #6A5ACD;
+  font-weight: 600;
+}
+
+.lang-code {
+  font-weight: 600;
+  min-width: 35px;
+  color: inherit;
+}
+
+.lang-name {
+  flex: 1;
+  margin-left: 12px;
+  color: inherit;
+}
+

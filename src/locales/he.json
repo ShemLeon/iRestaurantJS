@@ -1,0 +1,23 @@
+{
+  "header": {
+    "products": "מוצרים",
+    "equipment": "ציוד",
+    "integrations": "אינטגרציות",
+    "about": "אודות",
+    "career": "קריירה",
+    "contact": "יצירת קשר"
+  },
+  "products": {
+    "yourBusiness": "העסק שלך",
+    "yourClients": "הלקוחות שלך",
+    "eat": "Eat - ניהול מסעדה",
+    "waiter": "Waiter - קבלת הזמנות ניידת",
+    "cook": "Cook - תצוגת מטבח",
+    "cloud": "Cloud - סטטיסטיקות ו-KPI",
+    "eatupOnline": "EatUp Online - הזמנות ומשלוחים",
+    "eatupInStore": "EatUp In Store - תפריט QR",
+    "menu": "Menu - הזמנה עצמית",
+    "kiosk": "Kiosk - מסופי שירות עצמי"
+  }
+}
+

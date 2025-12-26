@@ -1,0 +1,23 @@
+{
+  "header": {
+    "products": "Продукты",
+    "equipment": "Оборудование",
+    "integrations": "Интеграции",
+    "about": "О компании",
+    "career": "Карьера",
+    "contact": "Связаться"
+  },
+  "products": {
+    "yourBusiness": "Ваш бизнес",
+    "yourClients": "Ваши клиенты",
+    "eat": "Eat - Управление рестораном",
+    "waiter": "Waiter - Мобильный приём заказов",
+    "cook": "Cook - Kitchen display",
+    "cloud": "Cloud - Статистика и KPI",
+    "eatupOnline": "EatUp Online - Заказы и доставка",
+    "eatupInStore": "EatUp In Store - QR меню",
+    "menu": "Menu - Self Order",
+    "kiosk": "Kiosk - Терминалы самообслуживания"
+  }
+}
+

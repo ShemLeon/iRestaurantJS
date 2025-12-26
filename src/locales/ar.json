@@ -1,0 +1,23 @@
+{
+  "header": {
+    "products": "المنتجات",
+    "equipment": "المعدات",
+    "integrations": "التكامل",
+    "about": "حول الشركة",
+    "career": "الوظائف",
+    "contact": "اتصل بنا"
+  },
+  "products": {
+    "yourBusiness": "عملك",
+    "yourClients": "عملاؤك",
+    "eat": "Eat - إدارة المطعم",
+    "waiter": "Waiter - استقبال الطلبات المحمول",
+    "cook": "Cook - عرض المطبخ",
+    "cloud": "Cloud - الإحصائيات و KPI",
+    "eatupOnline": "EatUp Online - الطلبات والتوصيل",
+    "eatupInStore": "EatUp In Store - قائمة QR",
+    "menu": "Menu - الطلب الذاتي",
+    "kiosk": "Kiosk - أجهزة الخدمة الذاتية"
+  }
+}
+
