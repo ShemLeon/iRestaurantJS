@@ -7,6 +7,7 @@ function Header() {
         <div className="logo">
           <a href="/">
             <span className="logo-text">iRestaurant</span>
+            <img src="/src/assets/logo-wineglass.svg" alt="logo" className="logo-icon" />
           </a>
         </div>
         

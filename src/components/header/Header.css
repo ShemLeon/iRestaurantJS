@@ -18,13 +18,31 @@
   height: 80px;
 }
 
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.logo a {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  text-decoration: none;
+}
+
 .logo-text {
+  font-family: 'Inter', 'Helvetica Neue', sans-serif;
   font-size: 28px;
-  font-weight: 800;
-  background: linear-gradient(135deg, #ff6b35 0%, #f7931e 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  font-weight: 900;
+  color: #000000;
+  letter-spacing: -0.5px;
+}
+
+.logo-icon {
+  width: 32px;
+  height: 32px;
+  display: inline-block;
 }
 
 .nav-menu ul {
