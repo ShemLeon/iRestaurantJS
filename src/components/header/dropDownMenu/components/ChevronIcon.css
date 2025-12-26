@@ -1,0 +1,6 @@
+.chevron-icon {
+  width: 12px;
+  height: 12px;
+  color: inherit;
+  transition: transform 0.3s ease;
+}

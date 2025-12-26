@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react';
 import './DropDownMenu.css';
-import DropdownColumn from './components/DropdownColumn';
+import DropdownColumn from './components/DropDownColumn';
 
-function DropdownMenu({ isOpen, content, onMouseEnter, onMouseLeave }) {
+function DropdownMenu({ isOpen, content, onMouseEnter, onMouseLeave, t }) {
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
@@ -24,7 +24,7 @@ function DropdownMenu({ isOpen, content, onMouseEnter, onMouseLeave }) {
     >
       <div className="dropdownContent">
         {content.columns.map((column, idx) => (
-          <DropdownColumn key={idx} column={column} />
+          <DropdownColumn key={idx} column={column} t={t} />
         ))}
       </div>
     </div>
