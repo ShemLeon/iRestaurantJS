@@ -1,10 +1,13 @@
 import './Header.css'
 import { useTranslation } from 'react-i18next'
+import { useState } from 'react'
 import ContactButton from './contactButton/ContactButton'
 import LanguageSwitcher from './languageSwitcher/LanguageSwitcher'
 
 function Header() {
   const { t } = useTranslation()
+  const [isProductsOpen, setIsProductsOpen] = useState(false)
+
   return (
     <header className="header">
       <div className="header-container">
@@ -17,8 +20,27 @@ function Header() {
         
         <nav className="nav-menu">
           <ul>
-            <li className="dropdown">
-              <a href="#">{t('header.products')}</a>
+            <li 
+              className={`dropdown ${isProductsOpen ? 'open' : ''}`}
+              onMouseEnter={() => setIsProductsOpen(true)}
+              onMouseLeave={() => setIsProductsOpen(false)}
+            >
+              <a href="#" className="dropdown-link">
+                <span>{t('header.products')}</span>
+                <svg 
+                  className="dropdown-icon" 
+                  width="12" 
+                  height="12" 
+                  viewBox="0 0 448 512" 
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path 
+                    d="M240.971 130.524l194.343 194.343c9.373 9.373 9.373 24.569 0 33.941l-22.667 22.667c-9.357 9.357-24.522 9.375-33.901.04L224 227.495 69.255 381.516c-9.379 9.335-24.544 9.317-33.901-.04l-22.667-22.667c-9.373-9.373-9.373-24.569 0-33.941L207.03 130.524c9.372-9.373 24.568-9.373 33.941 0z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </a>
               <div className="dropdown-content">
                 <div className="dropdown-section">
                   <h4>{t('products.yourBusiness')}</h4>

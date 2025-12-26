@@ -1,0 +1,16 @@
+.dropdownColumn {
+  flex: 1;
+}
+
+.columnTitle {
+  color: #7d3cff;
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.columnItems {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}

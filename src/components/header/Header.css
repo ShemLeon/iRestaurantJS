@@ -64,7 +64,28 @@
 .nav-menu a:hover {
   color: #ff6b35;
 }
+.dropdown-link {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
 
+.dropdown-icon {
+  width: 12px;
+  height: 12px;
+  color: inherit;
+  transition: transform 0.3s ease;
+  transform: rotate(180deg);
+}
+
+.dropdown.open .dropdown-icon {
+  transform: rotate(0deg);
+}
+
+.dropdown:hover .dropdown-content,
+.dropdown.open .dropdown-content {
+  display: grid;
+}
 .dropdown {
   position: relative;
 }
