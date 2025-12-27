@@ -20,9 +20,10 @@
     "kiosk": "Kiosk - מסופי שירות עצמי"
   },
   "hero": {
-    "subtitle": "iRestaurant AI",
-    "title": "כל האפליקציות למסעדות",
-    "button": "צור קשר"
-  }
+  "subtitle": "iRestaurant AI",
+  "titleLine1": "כל האפליקציות",
+  "titleLine2": "למסעדות",
+  "button": "צור קשר"
+}
 }
 

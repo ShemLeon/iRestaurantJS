@@ -1,15 +1,14 @@
 import './Body.css'
-import Hero from './hero/Hero'
-// import ContactForm from './ContactForm'
+import HeroText from './hero/HeroText'
+import HeroVideo from './hero/HeroVideo'
 
 function Body() {
   return (
     <main className="body">
-      <Hero />
-      {/* <ContactForm /> */}
+      <HeroText />
+      <HeroVideo />
     </main>
   )
 }
 
 export default Body
-

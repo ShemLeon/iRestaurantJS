@@ -20,9 +20,10 @@
     "kiosk": "Kiosk - أجهزة الخدمة الذاتية"
   },
   "hero": {
-    "subtitle": "iRestaurant AI",
-    "title": "جميع التطبيقات للمطاعم",
-    "button": "اتصل بنا"
-  }
+  "subtitle": "iRestaurant AI",
+  "titleLine1": "جميع التطبيقات",
+  "titleLine2": "للمطاعم",
+  "button": "اتصل بنا"
+}
 }
 

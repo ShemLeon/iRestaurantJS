@@ -21,8 +21,8 @@
   },
   "hero": {
     "subtitle": "iRestaurant AI",
-    "title": "Все приложения для ресторанов",
+    "titleLine1": "Все приложения для",
+    "titleLine2": "Ресторанов",
     "button": "Связаться с нами"
   }
 }
-

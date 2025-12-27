@@ -20,9 +20,10 @@
     "kiosk": "Kiosk - Self-Service Terminals"
   },
   "hero": {
-    "subtitle": "iRestaurant AI",
-    "title": "All Apps for Restaurants",
-    "button": "Contact Us"
-  }
+  "subtitle": "iRestaurant AI",
+  "titleLine1": "All Apps for",
+  "titleLine2": "Restaurants",
+  "button": "Contact Us"
+}
 }
 
