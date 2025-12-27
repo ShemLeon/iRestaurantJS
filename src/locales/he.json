@@ -18,6 +18,11 @@
     "eatupInStore": "EatUp In Store - תפריט QR",
     "menu": "Menu - הזמנה עצמית",
     "kiosk": "Kiosk - מסופי שירות עצמי"
+  },
+  "hero": {
+    "subtitle": "iRestaurant AI",
+    "title": "כל האפליקציות למסעדות",
+    "button": "צור קשר"
   }
 }
 

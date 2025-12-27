@@ -18,6 +18,11 @@
     "eatupInStore": "EatUp In Store - QR меню",
     "menu": "Menu - Self Order",
     "kiosk": "Kiosk - Терминалы самообслуживания"
+  },
+  "hero": {
+    "subtitle": "iRestaurant AI",
+    "title": "Все приложения для ресторанов",
+    "button": "Связаться с нами"
   }
 }
 
