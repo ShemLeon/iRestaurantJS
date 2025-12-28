@@ -3,6 +3,7 @@
   background: #ffffff;
   box-shadow: 0 2px 20px rgba(0, 0, 0, 0.08);
   z-index: 1000;
+   overflow: visible;
 }
 
 .header-container {
@@ -98,7 +99,7 @@
   display: grid;
 }
 .dropdown {
-  position: relative;
+  position: static;
 }
 
 .dropdown-content {
