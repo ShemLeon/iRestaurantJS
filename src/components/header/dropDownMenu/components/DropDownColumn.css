@@ -1,16 +1,33 @@
+/* Полностью замените содержимое файла этим кодом: */
+
 .dropdownColumn {
-  flex: 1;
+  display: flex;
+  flex-direction: column; /* Заголовок сверху, итемы снизу */
+  gap: 25px;
+  width: 100%;
 }
 
 .columnTitle {
-  color: #7d3cff;
   font-size: 20px;
-  margin-bottom: 20px;
   font-weight: 600;
+  color: #2c3e50;
+  margin: 0;
+  padding-left: 5px;
+  text-transform: none; /* Убираем капс для более современного вида */
+  border-bottom: 1px solid #eee; /* Тонкая линия под заголовком */
+  padding-bottom: 10px;
 }
 
 .columnItems {
   display: flex;
-  flex-direction: column;
-  gap: 15px;
+  flex-direction: row;    /* Карточки в ряд */
+  flex-wrap: nowrap;      /* Не переносим на новую строку */
+  gap: 20px;
+  overflow-x: auto;       /* Добавляем прокрутку, если карточек слишком много */
+  padding: 10px 5px;
+  scrollbar-width: none;  /* Прячем скроллбар в Firefox */
+}
+
+.columnItems::-webkit-scrollbar {
+  display: none;          /* Прячем скроллбар в Chrome/Safari */
 }

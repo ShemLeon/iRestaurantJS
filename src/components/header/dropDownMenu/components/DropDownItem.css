@@ -1,26 +1,47 @@
 .dropdownItem {
+  text-decoration: none;
+  display: block;
+}
+
+.dropdownItemCard {
+  display: flex;
+  flex-direction: column;  /* Иконка над текстом */
+  align-items: center;
+  padding: 50px 10px;
+  background: #f8f9fa;
+  border: 1px solid #eef0f2;
+  border-radius: 24px;
+   transition: all 0.3s ease;
+  width: 200px;        /* Фиксированная ширина карточки */
+  flex-shrink: 0;      /* ЗАПРЕЩАЕТ КАРТОЧКЕ СЖИМАТЬСЯ */
+  text-align: center;
+}
+
+.dropdownItemCard:hover {
+  background: #ffffff;
+  border-color: #3498db;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+  transform: translateY(-5px);
+}
+
+.dropdownItemImageWrapper {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
   display: flex;
   align-items: center;
-  gap: 15px;
+  justify-content: center;
+}
+
+.dropdownItemTitle {
+  font-size: 18px;
+  font-weight: 700;
   color: #333;
-  text-decoration: none;
-  padding: 8px 0;
-  transition: all 0.3s ease;
+  margin-bottom: 8px;
 }
 
-.dropdownItem:hover {
-  color: #7d3cff;
-  transform: translateX(5px);
-}
-
-.dropdownItemImage {
-  width: 50px;
-  height: 50px;
-  object-fit: cover;
-  border: 1px solid #eee;
-  border-radius: 4px;
-}
-
-.dropdownItemText {
+.dropdownItemDescription {
   font-size: 14px;
+  color: #7f8c8d;
+  line-height: 1.4;
 }
