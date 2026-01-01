@@ -5,43 +5,62 @@
 
 .dropdownItemCard {
   display: flex;
-  flex-direction: column;  /* Иконка над текстом */
+  flex-direction: column;
   align-items: center;
-  padding: 50px 10px;
-  background: #f8f9fa;
+  justify-content: flex-start;
+  padding: 0px 0px;
+  background: #f3f7f9;
   border: 1px solid #eef0f2;
-  border-radius: 24px;
-   transition: all 0.3s ease;
-  width: 200px;        /* Фиксированная ширина карточки */
-  flex-shrink: 0;      /* ЗАПРЕЩАЕТ КАРТОЧКЕ СЖИМАТЬСЯ */
+  border-radius: 20px;
+  transition: all 0.3s ease;
+  width: 180px; /* Фиксированная ширина карточки */
+  height: 160px;
+  flex-shrink: 0; /* ЗАПРЕЩАЕТ КАРТОЧКЕ СЖИМАТЬСЯ */
   text-align: center;
+  border: none;
 }
 
 .dropdownItemCard:hover {
-  background: #ffffff;
-  border-color: #3498db;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.05);
-  transform: translateY(-5px);
+  background: #e9eff2;
+  transform: translateY(-2px);
 }
 
 .dropdownItemImageWrapper {
-  width: 100px;
-  height: 100px;
-  margin-bottom: 20px;
+  width: 120px;
+  height: 90px;
+  margin-bottom: 0px;
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
+}
+
+.dropdownItemImage {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain; /* Картинка вписывается в 120x90 без искажений */
+}
+
+.dropdownItemInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  width: 100%;
 }
 
 .dropdownItemTitle {
-  font-size: 18px;
-  font-weight: 700;
-  color: #333;
-  margin-bottom: 8px;
+  font-size: 22px;
+  font-weight: 800;
+  color: #000;
+  margin: 0;
+  line-height: 1.1;
 }
 
 .dropdownItemDescription {
   font-size: 14px;
-  color: #7f8c8d;
-  line-height: 1.4;
+  font-weight: 400;
+  color: #444;
+  margin: 0;
+  line-height: 1.2;
+  margin-top: 2px;
 }

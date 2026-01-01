@@ -22,10 +22,10 @@
   display: flex;
   flex-direction: row;    /* Карточки в ряд */
   flex-wrap: nowrap;      /* Не переносим на новую строку */
-  gap: 20px;
+  gap: 15px;
   overflow-x: auto;       /* Добавляем прокрутку, если карточек слишком много */
-  padding: 10px 5px;
-  scrollbar-width: none;  /* Прячем скроллбар в Firefox */
+  padding: 10px 0px;
+  scrollbar-width: none;  
 }
 
 .columnItems::-webkit-scrollbar {
